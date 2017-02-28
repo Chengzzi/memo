@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="css/base.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script src="store.js-master/store.min.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    
+</head>
+<body>
+    <h3>我的备忘录</h3>
+    <div class="wrap">
+    	
+	    <div class="add-item clearfix"><!-- 添加备忘 -->
+			<input type="text" placeholder="请添加备忘" name="additem">
+			<button>添加备忘</button>
+	    </div><!-- 添加备忘结束 -->
+	    <ul class="item-box clearfix"><!-- 任务清单 -->
+			<li class="item">
+				<input type="checkbox" name="complete">
+				<span>a task item</span>
+				<span class="r delate">删除</span>
+				<span class="r check">详情</span>
+			</li>
+			<li class="item">
+				<input type="checkbox" name="complete">
+				<span>a task item</span>
+				<span class="r delate">删除</span>
+				<span class="r check">详情</span>
+			</li>
+			<li class="item">
+				<input type="checkbox" name="complete">
+				<span>a task item</span>
+				<span class="r delate">删除</span>
+				<span class="r check">详情</span>
+			</li>
+			<li class="item">
+				<input type="checkbox" name="complete">
+				<span>a task item</span>
+				<span class="r delate">删除</span>
+				<span class="r check">详情</span>
+			</li>
+	    </ul><!-- 任务清单结束 -->
+	    <div class="detail-mask"></div>
+	    <div class="detail"><!-- 任务细节 -->
+	    	<div class="item-name">
+	    		<input type="text" name="">
+	    	</div>
+
+	    	<div class="desc">
+				<input type="text" name="">
+	    	</div>
+	    	<div class="update">
+	    		提醒时间：
+				<input type="date">
+				<button>完成</button>
+	    	</div>	
+			
+
+
+
+			
+
+	    </div><!-- 任务细节结束 -->
+	</div>
+</body>
+</html>
