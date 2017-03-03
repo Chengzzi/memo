@@ -14,57 +14,30 @@
     <h3>我的备忘录</h3>
     <div class="wrap">
     	
-	    <div class="add-item clearfix"><!-- 添加备忘 -->
-			<input type="text" placeholder="请添加备忘" name="additem">
-			<button>添加备忘</button>
-	    </div><!-- 添加备忘结束 -->
+	    <form class="add-item clearfix"><!-- 添加备忘 -->
+			<input type="text" placeholder="&nbsp请添加备忘" autofocus autocomplete="off" name="additem">
+			<input type="submit" value="添加备忘">
+	    </form><!-- 添加备忘结束 -->
 	    <ul class="item-box clearfix"><!-- 任务清单 -->
-			<li class="item">
-				<input type="checkbox" name="complete">
-				<span>a task item</span>
-				<span class="r delate">删除</span>
-				<span class="r check">详情</span>
-			</li>
-			<li class="item">
-				<input type="checkbox" name="complete">
-				<span>a task item</span>
-				<span class="r delate">删除</span>
-				<span class="r check">详情</span>
-			</li>
-			<li class="item">
-				<input type="checkbox" name="complete">
-				<span>a task item</span>
-				<span class="r delate">删除</span>
-				<span class="r check">详情</span>
-			</li>
-			<li class="item">
-				<input type="checkbox" name="complete">
-				<span>a task item</span>
-				<span class="r delate">删除</span>
-				<span class="r check">详情</span>
-			</li>
+			
 	    </ul><!-- 任务清单结束 -->
-	    <div class="detail-mask"></div>
 	    <div class="detail"><!-- 任务细节 -->
-	    	<div class="item-name">
-	    		<input type="text" name="">
-	    	</div>
+		    <form>
+		    	<div class="item-name">
+		    		<input type="text" name="">
+		    	</div>
 
-	    	<div class="desc">
-				<input type="text" name="">
-	    	</div>
-	    	<div class="update">
-	    		提醒时间：
-				<input type="date">
-				<button>完成</button>
-	    	</div>	
-			
-
-
-
-			
-
+		    	<div class="desc">
+					<textarea></textarea>
+		    	</div>
+		    	<div class="update">
+		    		提醒时间：
+					<input type="date">
+		    	</div>
+		    	<input type="submit" name="submit" value="提交">	
+			</form>
 	    </div><!-- 任务细节结束 -->
 	</div>
+	<div class="detail-mask"></div>
 </body>
 </html>
