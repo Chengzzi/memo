@@ -1,5 +1,8 @@
-html{
-    background:#5f6d7e;
+@media(max-width: 1200px){
+.wrap{
+	width: 80%;
+	min-width: 400px;
+}
 }
 *{
     font-size:22px;
@@ -9,6 +12,9 @@ h3{
     color:#fff;
     margin-top:50px;
     font-size:36px;
+}
+body{
+	background: url(../imgs/fengjing15.jpg);
 }
 .wrap{
 	max-width: 1000px;
@@ -28,11 +34,14 @@ h3{
 }
 .add-item input[type=submit]{
     border-radius:3px;
+    background: #fff;
 	width: 15%;
 	height: 36px;
 	float: right;
 	border: 1px solid #ccc;
-
+}
+.add-item input[type=submit]:hover{
+	border:3px solid #00CCFF;
 }
 
 .item{
@@ -99,5 +108,5 @@ h3{
 	border: 1px solid #aaa;
 }
 .complete{
-	
+	background: #999;
 }
